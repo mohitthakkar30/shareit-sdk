@@ -1,0 +1,25 @@
+{
+  "name": "shareit-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "yarn build && yarn publish --access public --patch --no-git-tag-version"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "crypto-ts": "^1.0.2",
+    "pkcs7-padding": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/pkcs7-padding": "^0.1.1"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
